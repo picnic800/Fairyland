@@ -1,0 +1,16 @@
+Item 1,Item 2,Correlation Coefficient,Type of correlation
+mon,tue,0.57735026,Positive correlation
+mon,wed,0.0,No correlation
+mon,thu,-0.57735026,Negative correlation
+mon,fri,0.57735026,Positive correlation
+mon,sat,-0.57735026,Negative correlation
+tue,wed,0.57735026,Positive correlation
+tue,thu,-1.0,Negative correlation
+tue,fri,-0.33333334,Negative correlation
+tue,sat,-0.33333334,Negative correlation
+wed,thu,-0.57735026,Negative correlation
+wed,fri,-0.57735026,Negative correlation
+wed,sat,0.57735026,Positive correlation
+thu,fri,0.33333334,Positive correlation
+thu,sat,0.33333334,Positive correlation
+fri,sat,-0.33333334,Negative correlation

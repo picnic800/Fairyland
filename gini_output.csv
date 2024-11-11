@@ -1,0 +1,9 @@
+Parent Entropy: 1.0
+Categorical Feature Selected
+Feature: Excellent | Weighted Entropy: 0.0 | Gini Index: 0.0
+Feature: Fair | Weighted Entropy: 0.0 | Gini Index: 0.0
+Feature: Average | Weighted Entropy: 0.9182958340544896 | Gini Index: 0.4444444444444444
+Feature: Good | Weighted Entropy: 0.0 | Gini Index: 0.0
+Feature: Fast | Weighted Entropy: 0.0 | Gini Index: 0.0
+Information Gain for Selected Feature: 0.7245112497836532
+Final Gini Index after Best Split: 0.13333333333333333

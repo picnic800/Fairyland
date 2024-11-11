@@ -1,0 +1,32 @@
+Initial clusters:
+{ 80.0 }, { 51.0 }, { 38.0 }, { 31.0 }, 
+
+Distance Matrix:
+0 29.0 42.0 49.0 
+29.0 0 13.0 20.0 
+42.0 13.0 0 7.0 
+49.0 20.0 7.0 0 
+
+Merging clusters with minimum distance: 7.0
+Clusters after merge:
+{ 80.0 }, { 51.0 }, { 38.0 31.0 }, 
+
+Distance Matrix:
+0 29.0 42.0 
+29.0 0 13.0 
+42.0 13.0 0 
+
+Merging clusters with minimum distance: 13.0
+Clusters after merge:
+{ 80.0 }, { 51.0 38.0 31.0 }, 
+
+Distance Matrix:
+0 29.0 
+29.0 0 
+
+Merging clusters with minimum distance: 29.0
+Clusters after merge:
+{ 80.0 51.0 38.0 31.0 }, 
+
+Final Cluster:
+80.0 51.0 38.0 31.0 

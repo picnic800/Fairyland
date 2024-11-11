@@ -1,0 +1,49 @@
+Step 1 Distance Matrix:
+0.0,8.0,37.0,50.0,57.0
+8.0,0.0,29.0,42.0,49.0
+37.0,29.0,0.0,13.0,20.0
+50.0,42.0,13.0,0.0,7.0
+57.0,49.0,20.0,7.0,0.0
+
+Step 1 Merge: Cluster 3 and Cluster 4 into Cluster 3
+Merged points: d e 
+Step 1 Clusters:
+Cluster 0: a 
+Cluster 1: b 
+Cluster 2: c 
+Cluster 3: d e 
+Step 2 Distance Matrix:
+0.0,8.0,37.0,53.5
+8.0,0.0,29.0,45.5
+37.0,29.0,0.0,16.5
+53.5,45.5,16.5,0.0
+
+Step 2 Merge: Cluster 0 and Cluster 1 into Cluster 0
+Merged points: a b 
+Step 2 Clusters:
+Cluster 0: a b 
+Cluster 1: c 
+Cluster 2: d e 
+Step 3 Distance Matrix:
+0.0,33.0,49.5
+33.0,0.0,16.5
+49.5,16.5,0.0
+
+Step 3 Merge: Cluster 0 and Cluster 2 into Cluster 0
+Merged points: a b d e 
+Step 3 Clusters:
+Cluster 0: a b d e 
+Cluster 1: c 
+Step 4 Distance Matrix:
+0.0,33.0
+33.0,0.0
+
+Step 4 Merge: Cluster 0 and Cluster 1 into Cluster 0
+Merged points: a b d e c 
+Step 4 Clusters:
+Cluster 0: a b d e c 
+Step 5 Distance Matrix:
+0.0
+
+Final Clusters:
+Cluster 0: a b d e c 

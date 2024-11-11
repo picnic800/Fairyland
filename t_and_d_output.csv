@@ -1,0 +1,21 @@
+Row,Column,Count
+Female,Caucasian,0
+Female,Asian,40
+Female,African,60
+Male,Caucasian,120
+Male,Asian,150
+Male,African,0
+
+Row Sums
+Row,Sum
+Female,100
+Male,270
+
+Column Sums
+Column,Sum
+Caucasian,120
+Asian,190
+African,60
+
+Total Sum
+Total Sum,370

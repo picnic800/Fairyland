@@ -1,0 +1,10 @@
+{banana, grapes}: 4
+{banana, carrot}: 4
+{banana, apple}: 3
+{apple, grapes}: 3
+{pomegranate, carrot}: 0
+{grapes, carrot}: 3
+{apple, pomegranate}: 1
+{banana, pomegranate}: 0
+{pomegranate, grapes}: 1
+{apple, carrot}: 2
